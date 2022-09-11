@@ -13,4 +13,25 @@ body {
 
 .cookie {
   padding: 2em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  width: 100%;
 }
+
+.cookie a {
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+.cookie p {
+  display: inline-block;
+  width: 65%;
